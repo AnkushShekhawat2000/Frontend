@@ -1,0 +1,115 @@
+/* 
+*{
+    font-size: 30px;
+    color:blue;
+    
+} 
+*/
+
+
+/* use case of universal selevtor */
+ *{
+    padding:0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+ /* Type selector css */
+ /* p{
+    color:red;
+    background-color: yellow;
+ } */
+
+ button{
+    background-color: rgb(0,48,169);
+    color:white;
+    border:none;
+    border-radius: 5px;
+ }
+
+ h2{
+    background-color: aqua;
+ }
+
+
+ /* Id slector css */
+
+ #join{
+    background-color: red;
+    color:blue;
+ }
+
+
+ #join{
+   background-color: black;
+ }
+
+ #span-1{
+    background-color: blue;
+    color:white;
+ }
+
+ #para-4{
+    background-color: aqua;
+    color: red;
+ }
+
+/* class selector */
+
+.green{
+    border:10px solid green;
+}
+
+.active{
+    background-color: red;
+
+}
+
+.disabled{
+    background-color: grey;
+}
+
+.box{
+   background-color: blue;
+   height:100px;
+   width:100px;
+}
+
+
+/* child selector */
+
+    /* #ankush>p{
+      color:red;
+      background-color: limegreen;
+   } */
+
+   /* decendent selector */
+
+   /* #ankush p{
+      color:blue;
+      background-color: yellow;
+   }  */
+
+   #ankush>div>p{
+      background-color: orange;
+   }
+
+   #eg1 > div > p{
+      background-color: yellow;
+   }
+
+   
+/* <!-- pseduo class selector --> */
+
+#my-btn:hover{
+   background-color: white;
+   color:black;
+   border:none;
+   
+}
+
+#my-btn:focus{
+   background-color: yellow;
+}
