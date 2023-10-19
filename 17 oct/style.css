@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* text properties */
+#eg1{
+
+ /* color property sets the color of the text */
+
+    /* Multiple ways to provide color */
+
+    /* 
+    1. name colors (147 named colors) imp
+     */
+    color:red;
+
+    /* 
+    2. rgb(red, green, blue)  imp
+     */
+    color:rgb(0, 195, 229);
+
+    /*
+    3. rgba(red, green, blue, opacity)-->   (a stand for alpha (opacity of the text)
+    */
+    color:rgba(177, 38, 190, 0.256);
+
+
+    /* 
+    4. hsl(hue, saturation, lightness)
+    */
+    color:hsl(133, 27%, 90%);
+
+    /* 
+    5. hexacode  imp
+     */
+
+     color: #500707;
+
+
+
+     /* text align  */
+
+}
+
+#para1{
+    text-align:center;
+}
+
+#para2{
+    text-align:left;
+}
+
+#para3{
+    text-align:right;
+}
+
+#para4{
+    text-align:justify;
+}
+
+#para5{
+    text-align: center;
+    text-align:justify;
+}
+
+
+
+
+/* text-decoration property */
+
+/* 
+1. none
+*/
+
+#text-eg1{
+    text-decoration: none;
+
+}
+
+/* 
+2. underline
+*/
+#text-eg2{
+    text-decoration: underline;
+
+}
+
+/* 
+3. overline
+*/
+#text-eg3{
+    text-decoration: overline;
+
+}
+
+
+/* 
+4. line through
+*/
+#text-eg4{
+    text-decoration: red line-through;
+
+}
+
+/* text-transform */
+/* 
+1.uppercase
+2. lowercase
+3. capitalise
+
+*/
+
+#name1{
+    text-transform: uppercase;
+}
+
+#name2{
+    text-transform: lowercase;
+}
+
+
+#name3{
+    text-transform: capitalize;
+}
+
+
+/* line height */
+
+#p4{
+    line-height: 5px;
+}
+
+
+#shadow{
+    color:blue;
+    text-shadow: 100px -100px 1px red;
+}
+
+#glow{
+    color:white;
+    text-shadow: 0px 0px 50px blue;
+    
+}
+
+/* using predefined way */
+#fonteg1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* using importing way */
+#fonteg2{
+    /* 
+    famous font in 2023
+    1. Inter
+    2. Poppins 
+    Note --> these are not available in predefined list hence i need to import and then i use it
+    */
+    font-family: 'Inter', sans-serif;
+
+}
+
+#fonteg3{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+
+}
+
+#ex1{
+    font-weight: 100;
+}
+
+#ex3{
+    font-weight: 900;
+}
+
+#ex5{
+ font-size: 100px;
+}
+
+
+#border{
+    color: blue;
+    font-weight: 900px;
+    font-size:100px;
+
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: pink; */
+
+    border:10px solid red;
+
+}
+#border2{
+    color: blue;
+    font-weight: 900px;
+    font-size:100px;
+/* 
+    border-top-width: 10px;
+    border-top-style:solid;
+    border-top-color: pink; */
+    border-top:10px solid red;
+    border-right:10px solid green;
+
+}
+
+
+#btn1{
+    border-style: none;
+}
+
+
+
+
+#ex6{
+    /* commented for checking relative features */
+    /* width: 200px ; */  
+
+    width:50%;
+
+     
+    /* 
+    1. Absolute (mm, cm, px)
+
+    2. Relative (%, viewport)
+    */
+    background-color: blue;
+}
+
+
+/* Relative example */
+#eg10{
+    width:50%;
+    height:300px;
+    background-color: red;
+}
+
+#eg11{
+    width:50%;
+    background-color: yellow;
+}
+
+#eg12{
+    background-color: pink;
+    width:50vw;
+}
+
+#eg13{
+    background-color: black;
+
+    width: 50vw;
+    height: 50vh;
+}

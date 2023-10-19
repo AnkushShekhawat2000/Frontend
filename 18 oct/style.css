@@ -1,0 +1,163 @@
+#eg1{
+   width:300px;
+   height:300px;
+   background-color: blue;
+   /* margin:50px; */
+
+/* short hand margin property */
+   /* One value 
+       all side*/
+   /* margin:30px; */
+
+   /* two value 
+       y-axis    x-axis */
+   /* margin:30px      50px; */
+
+   /* three value 
+         top  left/right both           bottom */
+   /* margin: 30px        100px             10px; */
+
+
+   /* four value */
+   /*       top   right   bottom   left*/
+ 
+
+
+   
+
+
+
+   /* Indivisual margin property */
+
+   /* margin-top:100px; */
+
+
+   /* margin-left:50px; */
+
+   /* margin-right:10px; */
+
+   /* margin-bottom:20px; */
+
+   margin-inline: 30px;
+
+}
+
+#eg2{
+    
+    width:300px;
+    height:300px;
+    background-color: pink;
+    margin:50px;
+
+}
+
+
+
+
+
+/* padding proprty */
+#eg3{
+width:300px;
+height:300px;
+background-color: pink;
+padding:50px;
+box-sizing:border-box;
+
+
+/* short hand margin property */
+/* One value 
+    all side*/
+/* padding:30px; */
+
+/* two value 
+    y-axis    x-axis */
+/* padding:30px      50px; */
+
+/* three value 
+      top        left/right both           bottom */
+/* padding: 30px        100px             10px; */ 
+
+
+/* four value */
+/*       top   right   bottom   left*/
+/* padding: 10px    30px   50px    70px;   */
+
+
+
+
+
+
+/* Indivisual padding property */
+
+/* padding-top:100px;
+/* padding-left:50px; */
+
+/* padding-right:10px; */
+
+/* padding-bottom:20px; */
+
+/* padding-inline: 30px; */
+
+}
+
+/* list properties */
+
+#eg4>li{
+    list-style-type: upper-alpha;
+/* disc: filled circle(default for unordered lists) 
+ - circle: Hollow circle.
+ - square: filled square.
+ - decimal: Decimal numbers(1, 2, 3...)
+ - decimal-leading- zero: Decimal numbers with leading zeros(01, 02, 03,..)
+ -lower-alpha: Lowercase alphabhets(a,b,c,..)
+ - upercase-alpha: Uppercase alphabets(A,B,C..)
+ - lowercase-roman:(Lowercase Roman numerals(i,ii,iii....)
+ - uppercase-roman: (Uppercase Roman numerals(I,II,III....)
+ - none: No marker(remove the marker).
+
+*/
+
+
+list-style-position: inside;
+
+list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFhQCfNftvFLbwHhOxHySNYcEic1xaJmofoSHKeAvbVNyMq3tdM7Zg_BO3-cBKy2-0mI&usqp=CAU);
+   
+}
+
+/* table properties */
+
+table{
+    border: 10px solid blue;
+    border-collapse: collapse;
+    width: 500px;
+    height:400px;
+   
+    
+
+}
+
+td,th{
+    /* border-right: 5px solid blue;
+    border-top: 5px solid blue; */
+    border:5px solid blue;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+tr:nth-child(1){
+    background-color: pink;
+}
+
+tr:nth-child(2){
+    background-color: red;
+}
+
+tr:nth-child(odd){
+    background-color: beige;
+}
+
+tr>td:nth-child(1){
+    background-color: aqua;
+}
+
+
