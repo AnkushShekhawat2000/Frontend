@@ -1,0 +1,162 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid aqua;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.red{
+    background-color: red;
+    height: 300px;
+    order:2;
+}
+
+.green{
+    background-color: green;
+    height:30px;
+    
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    order:1;
+}
+
+.blue{
+    background-color: blue;
+
+    
+}
+
+#container{
+    display:flex;
+
+    /* height: 100vh; */
+
+    /* 
+    the flex container can have various properties 
+    that will control the behaviour of the flec items
+    */
+
+    
+   /* 1.flex-direction: row;
+   so comment it this is by default property */
+
+   /* 2 colum */
+   /* flex-direction: column; */
+/*  
+   flex-direction: row;
+   flex-direction: row-reverse;
+
+   flex-direction: column; */
+   /* flex-direction: column-reverse;  */
+
+   /* flex wrap property */
+
+   /* 1 flex-wrap: no-wrap; */
+   /* this property by default active in flex; */
+
+
+   /* 2.flex-wrap: wrap; */
+     /* This value allows flex items to wrap into multiple
+     libes if they exceed the width of the container
+     */
+
+
+    /* flex-wrap: wrap-reverse */
+
+
+
+}
+
+  /* justify content */
+#container1{
+    display:flex;
+    /* 1. justify content:left 
+     this by default */  
+    justify-content:left;
+
+}
+
+#container2{
+    display:flex;
+    /*2.right */
+ justify-content:right;
+
+}
+
+#container3{
+    display:flex;
+    /*3.center */
+ justify-content:center;
+
+}
+
+
+#container4{
+    display:flex;
+    /*4.space between */
+    justify-content: space-between;
+
+}
+
+
+
+
+ #container5{
+    display:flex;
+    /*5.space around */
+   justify-content: space-around;
+
+}
+
+
+#container6{
+    display:flex;
+    /*2. space evenly */
+  justify-content: space-evenly;
+
+}
+
+
+/* Align items Property */
+
+#container8{
+    border:red solid 10px;
+    display:flex;
+    /* align-items: center; */
+
+    /* align-items: flex-start; */
+
+    /* align-items: flex-end; */
+
+    align-items: stretch;
+   
+}
+
+#container10{
+    border:red solid 10px;
+    display:flex;
+    
+}
+
+.red1{
+    background-color: red;
+    height: 300px;
+   
+
+    flex:1;
+}
+
+.green1{
+    background-color: green;
+    height: 30px;
+
+    flex:4;
+    
+}
+
+
+
