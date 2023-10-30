@@ -1,0 +1,117 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* transition: all 2s ease; */
+    /* transition: width 2s ease; */
+    /* transition: background-color 10s ease; */
+    /* transition: background-color 100ms ease; */
+
+    transition: width 10s linear;
+
+    /* delay */
+    transition: width 10s linear 5s;
+}
+
+.box:hover{
+    background-color: red;
+    width: 500px;
+    
+}
+
+
+/* example 1 css */
+
+.box1{
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: background-color 5s ease;
+    
+}
+
+
+.box1:hover{
+    background-color: red;
+}
+
+
+/* 2 */
+
+#btn{
+    background-color: blue;
+    border:none;
+    color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 1s ease;
+}
+
+
+#btn:hover{
+   opacity: 0.8; 
+}
+
+#btn:active{
+    opacity: 0.5;
+}
+
+
+/* 3 */
+#box-2{
+    width:200px;
+    height:100px;
+    border: 10px solid blue;
+    transition: border 1s ease 5s;
+}
+
+#box-2:hover{
+    border: 10px solid red;
+}
+
+/* 4 */
+#box-3{
+    width:200px;
+    height:200px;
+    background-color:  blue;
+    transition: width 1s ease 5s, height 3s ease, background-color 10s ease;
+}
+
+#box-3:hover{
+  width: 400px;
+  background-color: red;
+}
+/* 5 */
+#eg3{
+    color:blue;
+    transition: all 1s ease;
+}
+
+#eg3:hover{
+    color:red;
+    font-size: 40px;
+}
+
+/* 6 */
+
+.box-4{
+    width:200px;
+    height:200px;
+    background-color:  red;
+    border: 10px solid green;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+
+
+.box-4:hover{
+    background-color: blue;
+}
+
+
+/* 7 */
+
+.box-4:hover{
+    transform: rotate(360deg);
+}
